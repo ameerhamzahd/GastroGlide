@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>GastroGlide</title>
+</head>
+
+<body>
+    <header>
+        <div class="header margin">
+            <div class="logo">
+                <img class="logoImg" src="Image/logo.png" alt="">
+            </div>
+
+            <div class="navbar">
+                <li>Home</li>
+                <li>Cart</li>
+            </div>
+
+            <div class="navbarSearchBar">
+                <div class="navbarSearchIcon">
+                    <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.5 21C15.7467 21 20 16.5228 20 11C20 5.47715 15.7467 1 10.5 1C5.25329 1 1 5.47715 1 11C1 16.5228 5.25329 21 10.5 21Z"
+                            stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M26 27L18 19" stroke="black" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+
+                    <input type="text" placeholder="Search">
+                </div>
+
+                <div>
+                    <div class="navbarCartIcon">
+                        <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.5 28L9 32.6V48.7C9 49.31 9.24583 49.895 9.68342 50.3263C10.121 50.7577 10.7145 51 11.3333 51H27.6667C28.2855 51 28.879 50.7577 29.3166 50.3263C29.7542 49.895 30 49.31 30 48.7V32.6L26.5 28H12.5Z"
+                                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M9 33H30" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M24 37C24 38.3261 23.5259 39.5979 22.682 40.5355C21.8381 41.4732 20.6935 42 19.5 42C18.3065 42 17.1619 41.4732 16.318 40.5355C15.4741 39.5979 15 38.3261 15 37"
+                                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <g filter="url(#filter0_d_3_427)">
+                                <circle cx="29.5" cy="29.5" r="7.5" fill="#F48E28" />
+                            </g>
+                            <path
+                                d="M28.273 32V31.643L30.31 29.648C30.4967 29.466 30.6367 29.3073 30.73 29.172C30.8233 29.032 30.8863 28.9013 30.919 28.78C30.9517 28.6587 30.968 28.5443 30.968 28.437C30.968 28.1523 30.87 27.9283 30.674 27.765C30.4827 27.6017 30.198 27.52 29.82 27.52C29.5307 27.52 29.274 27.5643 29.05 27.653C28.8307 27.7417 28.6417 27.8793 28.483 28.066L28.126 27.758C28.3173 27.534 28.5623 27.3613 28.861 27.24C29.1597 27.1187 29.4933 27.058 29.862 27.058C30.1933 27.058 30.4803 27.1117 30.723 27.219C30.9657 27.3217 31.1523 27.4733 31.283 27.674C31.4183 27.8747 31.486 28.1103 31.486 28.381C31.486 28.5397 31.4627 28.696 31.416 28.85C31.374 29.004 31.2947 29.1673 31.178 29.34C31.066 29.508 30.9003 29.6993 30.681 29.914L28.812 31.748L28.672 31.552H31.71V32H28.273Z"
+                                fill="white" />
+                            <defs>
+                                <filter id="filter0_d_3_427" x="0" y="0" width="59" height="59"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset />
+                                    <feGaussianBlur stdDeviation="11" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0.8 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_427" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_427"
+                                        result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbnail">
+            <div class="thumbnailLeft">
+                <div class="deliveryButton margin">
+                    <p>Bike Delivery</p>
+
+                    <img class="deliveryImg" src="Image/delivery.png" alt="">
+                </div>
+
+                <div class="bannerTitle margin">
+                    <h1>THE FASTEST<br><span>DELIVERY</span><br>IN <span>YOUR CITY</span></h1>
+                </div>
+
+                <div class="bannerDescription margin">
+                    <p><strong>GastroGlide</strong> is your go-to food cart for fast, quality meals on the move. We <br> combine the convenience of quick service with a commitment to fresh, <br> healthy ingredients. Whether you're grabbing a bite or ordering delivery, <br> GastroGlide offers delicious, guilt-free fast food that fits your lifestyle.</p>
+                </div>
+
+                <div class="thumbnailButton margin">
+                    <button class="orderButton">Order Now</button>
+
+                    <div class="orderProcess">
+                        <svg width="110" height="110" viewBox="0 0 138 138" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_3_332)">
+                            <circle cx="69" cy="69" r="44" fill="white"/>
+                            </g>
+                            <path d="M93 68.5L56.25 89.7176L56.25 47.2824L93 68.5Z" fill="#F48E28"/>
+                            <defs>
+                            <filter id="filter0_d_3_332" x="0" y="0" width="138" height="138" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset/>
+                            <feGaussianBlur stdDeviation="12.5"/>
+                            <feComposite in2="hardAlpha" operator="out"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0.5125 0 0 0 0 0.649 0 0 0 0 1 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_332"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_332" result="shape"/>
+                            </filter>
+                            </defs>
+                            </svg>
+                            
+                            <p>Order Process</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="thumbnailRight">
+                
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>

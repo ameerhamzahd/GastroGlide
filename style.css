@@ -1,0 +1,187 @@
+body {
+    background-color: white;
+    margin: auto;
+    font-family: Montserrat;
+}
+
+.margin {
+    margin: 20px 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    top: 33px;
+    left: 180px;
+    cursor: pointer;
+}
+
+.logoImg {
+    width: 94px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header li:hover,
+.header li.active {
+    color: #FD6F00;
+    transition: 0.5s;
+}
+
+.navbar {
+    margin-left: 275px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.navbarSearchBar {
+    display: flex;
+    align-items: center;
+    border: 1px #ADADAD;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbarSearchBar {
+    width: 353px;
+    height: 65px;
+}
+
+.navbarSearchIcon {
+    display: flex;
+    align-items: center;
+}
+
+.navbarSearchIcon svg {
+    height: 26px;
+    width: 25px;
+    margin-right: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.navbarSearchIcon input {
+    height: 20px;
+    width: 200px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+    border-right: 1px solid black;
+    margin-right: 20px;
+}
+
+.navbarSearchIcon input::placeholder {
+    color: black;
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.navbarCartIcon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.navbarCartIcon svg {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.deliveryButton {
+    padding-left: 35px;
+    display: flex;
+    background-color: #F5DDC4;
+    width: 250px;
+    height: 53px;
+    justify-content: space-between;
+    border-radius: 60px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.deliveryButton p {
+    font-weight: 600;
+    color: #F48E28;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 2.5px;
+}
+
+.deliveryImg {
+    border-radius: 30px;
+}
+
+.bannerTitle {
+    font-size: 42.5px;
+    font-weight: 800;
+    line-height: 47.4px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    line-height: 80px;
+}
+
+span, strong {
+    color: #F48E28;
+}
+
+.thumbnailButton {
+    display: flex;
+}
+
+.orderButton {
+    width: 185px;
+    height: 64.5px;
+    padding: 10px;
+    background-color: #F48E28;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: none;
+    font-size: 15px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.orderButton:hover {
+    background-color: #1c4e33;
+    transition: 0.3 ease;
+    color: #F48E28;
+}
+
+.orderProcess {
+    margin-top: 10px;
+    display: flex;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.orderProcess svg:hover {
+    background-color: #1c4e33;
+    transition: 0.3 ease;
+    color: #F48E28;
+}
+
+.orderProcess p {
+    margin-top: 42.5px;
+    font-weight: 600;
+    padding-left: 10px;
+}
