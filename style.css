@@ -106,16 +106,26 @@ a {
     margin-bottom: 20px;
 }
 
+.thumbnailLeft {
+    margin: 20px;
+    margin-left: 100px;
+}
+
 .deliveryButton {
     padding-left: 35px;
     display: flex;
     background-color: #F5DDC4;
-    width: 250px;
+    width: 235px;
     height: 53px;
     justify-content: space-between;
     border-radius: 60px;
     margin-top: 50px;
     cursor: pointer;
+}
+
+.deliveryButton:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
 }
 
 .deliveryButton p {
@@ -128,6 +138,10 @@ a {
 
 .deliveryImg {
     border-radius: 30px;
+    width: 50px;
+    height: 45px;
+    margin: 3px;
+    margin-right: 5px;
 }
 
 .bannerTitle {
@@ -139,7 +153,8 @@ a {
     line-height: 80px;
 }
 
-span, strong {
+span,
+strong {
     color: #F48E28;
 }
 
@@ -162,7 +177,7 @@ span, strong {
 }
 
 .orderButton:hover {
-    background-color: #1c4e33;
+    background-color: #000000;
     transition: 0.3 ease;
     color: #F48E28;
 }
@@ -172,10 +187,11 @@ span, strong {
     display: flex;
     margin-left: 25px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .orderProcess svg:hover {
-    background-color: #1c4e33;
+    background-color: #000000;
     transition: 0.3 ease;
     color: #F48E28;
 }
@@ -184,4 +200,285 @@ span, strong {
     margin-top: 42.5px;
     font-weight: 600;
     padding-left: 10px;
+}
+
+.thumbnailMiddle svg {
+    margin-top: 280px;
+}
+
+.thumbnail {
+    display: flex;
+    padding-top: 25px;
+}
+
+.item {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.item img {
+    Width: 136px;
+    Height: 127px;
+}
+
+.item p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.item span {
+    color: red;
+    font-weight: 500;
+}
+
+.menu {
+    display: grid;
+    grid-column: inherit;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 50px;
+    padding: 10px;
+}
+
+.item:hover {
+    cursor: pointer;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 100px;
+    margin: 30px 50px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    border-radius: 25px;
+}
+
+.infoIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F48E28;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    margin-left: 50px;
+}
+
+
+.info p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info h3 {
+    font-size: 14px;
+}
+
+.infoTime {
+    padding: 25px;
+}
+
+.productTitle {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.productTitle span {
+    font-weight: 700;
+} 
+
+.productTitle h3 {
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.foodCharts {
+    display: grid;
+    grid-column: inherit;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 25px;
+    text-align: center;
+}
+
+.foodItems {
+    text-align: left;
+    margin: 0px 55px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    border-radius: 25px;
+}
+
+.foodInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 363.75px;
+}
+
+.foodImg {
+    width: 363.75px;
+    height: 249.75px;
+}
+
+.foodsInfoRight {
+    margin: 18.72px 20px;
+}
+
+.foodsInfoRight p {
+    padding: 10px 0px;
+    font-weight: 500;
+}
+
+.foodsInfoRight span {
+    color: #000000;
+    font-weight: 300;
+} 
+
+.foodsInfoLeft {
+    margin-left: 25px;
+}
+
+.foodsInfoLeft button {
+    padding: 7.5px;
+    border: none;
+    background-color: #F48E28;
+    color: white;
+    border-radius: 25px;
+    transition: 0.5s;
+    width: 100px;
+}
+
+.foodsInfoLeft button:hover {
+    cursor: pointer;
+    background-color: #000000;
+    color: #F48E28;
+    transition: 0.3 ease;
+}
+
+.seeMoreProducts {
+    display: flex;
+    justify-content: center;
+}
+
+.seeMoreProducts button {
+    width: 295px;
+    height: 76px;
+    Left: 813px;
+    Padding: 26px, 39px, 26px, 39px;
+    Gap: 10px;
+    background-color: #F48E28;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    transition: 0.5s;
+}
+
+.seeMoreProducts button:hover {
+    cursor: pointer;
+    background-color: #000000;
+    color: #F48E28;
+    transition: 0.3 ease;
+}
+
+.serviceIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#F5DDC4;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    margin-left: 150px;
+}
+
+.serviceCombo {
+    display: grid;
+    grid-column: inherit;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    text-align: center;
+    margin: 50px;
+}
+
+.serviceThumbnail {
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    border-radius: 25px;
+}
+
+.serviceThumbnail:hover {
+    cursor: pointer;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.testimonialsImg {
+    width: 550px;
+}
+
+.testimonialsReview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonialsDiv {
+    display: grid;
+    grid-column: inherit;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    text-align: center;
+    margin: 50px;
+}
+
+.clientInfo {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.testimonials01 {
+    padding: 50px 0px;
+    margin: 25px;
+    text-align: center;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    border-radius: 25px;
+}
+
+.testimonialsLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonialsArrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#F48E28;
+    border-radius: 100%;
+    width: 55px;
+    height: 30px;
+}
+
+.testimonialsArrows:hover {
+    cursor: pointer;
+    box-shadow: 0px 4px 16px #F5DDC4;
+    transition: transform 0.2s ease-in-out;
 }
