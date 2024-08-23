@@ -54,9 +54,6 @@ a {
     border-radius: 15px;
     background-color: white;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.navbarSearchBar {
     width: 353px;
     height: 65px;
 }
@@ -153,6 +150,10 @@ a {
     line-height: 80px;
 }
 
+.bannerDescription {
+    width: 597.162px;
+}
+
 span,
 strong {
     color: #F48E28;
@@ -242,7 +243,7 @@ strong {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
     gap: 50px;
-    padding: 10px;
+    margin-top: 25px;
 }
 
 .item:hover {
@@ -295,7 +296,7 @@ strong {
 
 .productTitle span {
     font-weight: 700;
-} 
+}
 
 .productTitle h3 {
     font-size: 20px;
@@ -319,6 +320,12 @@ strong {
     border-radius: 25px;
 }
 
+.foodItems:hover {
+    cursor: pointer;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.1);
+    transition: 0.3 ease;
+}
+
 .foodInfo {
     display: flex;
     justify-content: space-between;
@@ -328,10 +335,13 @@ strong {
 .foodImg {
     width: 363.75px;
     height: 249.75px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .foodsInfoRight {
     margin: 18.72px 20px;
+    text-align: right;
 }
 
 .foodsInfoRight p {
@@ -342,7 +352,7 @@ strong {
 .foodsInfoRight span {
     color: #000000;
     font-weight: 300;
-} 
+}
 
 .foodsInfoLeft {
     margin-left: 25px;
@@ -398,7 +408,7 @@ strong {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#F5DDC4;
+    background-color: #F5DDC4;
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -471,7 +481,7 @@ strong {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#F48E28;
+    background-color: #F48E28;
     border-radius: 100%;
     width: 55px;
     height: 30px;
@@ -481,4 +491,163 @@ strong {
     cursor: pointer;
     box-shadow: 0px 4px 16px #F5DDC4;
     transition: transform 0.2s ease-in-out;
+}
+
+.newsletterDiv {
+    display: flex;
+    padding: 0px 25px;
+}
+
+.newsletterRight {
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 5px;
+    margin: 25px 10px;
+    color: white;
+}
+
+.newsletterRight h3 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.newsletterInfo {
+    display: grid;
+    grid-column: inherit;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    text-align: center;
+    margin: 0px 50px;
+}
+
+.newsletterImg {
+    width: 300px;
+    padding: 62.5px;
+}
+
+.subscribe {
+    width: 139px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    background-color: #F48E28;
+    color: white;
+    transition: 0.5s;
+}
+
+.subscribe:hover {
+    cursor: pointer;
+    background-color: #000000;
+    color: #F48E28;
+    transition: 0.3 ease;
+}
+
+.newsletter {
+    background-color: #000000;
+    border-radius: 50px;
+    margin: 80px 75px;
+    height: 400px;
+}
+
+.newsletterInputBar {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px #ADADAD;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    height: 55px;
+    padding: 0px 15px;
+}
+
+.newsletterInputBar input {
+    border: none;
+    outline: none;
+    width: 275px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.newsletterInputBar input::placeholder {
+    color: #B6B6B6;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #FAFAFF;
+}
+
+.footerDiv {
+    margin-top: 100px;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerDiv h3 {
+    padding-top: 50px;
+}
+
+.footerDiv img {
+    width: 100px;
+    mix-blend-mode: multiply;
+}
+
+.footer01 {
+    width: 375px;
+}
+
+.footer02 h3 {
+    padding-top: 85px;
+}
+
+.footer03 h3 {
+    padding-top: 85px;
+    padding-bottom: 45px;
+}
+
+.footer04 h3 {
+    padding-top: 85px;
+}
+
+.footer01 p {
+    color: #B6B6B6;
+}
+.footer02 p {
+    padding-top: 45px;
+    color: #B6B6B6;
+}
+
+.footer03 span {
+    color: #B6B6B6;
+}
+
+.footer03 span:hover {
+    cursor: pointer;
+    color: #F48E28;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footer04 p {
+    padding-top: 45px;
+    color: #B6B6B6;
+}
+
+.socialMediaIcons {
+    margin: 30px 0px;
+}
+
+.socialMediaIcons svg {
+    cursor: pointer;
+}
+
+.copyright {
+    padding: 20px 0px;
+    text-align: center;
+    font-weight: 600;
 }
