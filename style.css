@@ -2,6 +2,7 @@ body {
     background-color: white;
     margin: auto;
     font-family: Montserrat;
+    width: 100%;
 }
 
 .margin {
@@ -670,8 +671,53 @@ strong {
     cursor: pointer;
 }
 
+.footer04InputBar {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px #ADADAD;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 58px;
+    padding: 0px 10px;
+}
+
+.footer04InputBar input {
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 50px;
+    font-size: 11px;
+}
+
+.footer04InputBar input::placeholder {
+    color: #B6B6B6;
+    font-weight: 500;
+    font-size: 14px;
+}
+
 .copyright {
     padding: 20px 0px;
     text-align: center;
     font-weight: 600;
+}
+
+.footerInfoIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F48E28;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    transition: 0.5s;
+}
+
+.footerInfoIcon:hover {
+    cursor: pointer;
+    background-color: #000000;
+    color: #F48E28;
+    transition: 0.3 ease;
 }
