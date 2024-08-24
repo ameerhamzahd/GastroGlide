@@ -23,19 +23,33 @@ a {
     width: 94px;
 }
 
-.header {
+header {
+    background-color: white;
+    position: sticky;
+    width: 1272.800px;
+    top: 0;
+    padding: 0px 100px;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.navbarLeft {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header li:hover,
-.header li.active {
+header .scrolled {
+    background-color: #000000;
+    opacity: 0.98;
+}
+
+.navbarMiddle li:hover,
+.navbarMiddle li.active {
     color: #FD6F00;
     transition: 0.5s;
 }
 
-.navbar {
+.navbarMiddle {
     margin-left: 275px;
     display: flex;
     justify-content: space-between;
@@ -47,7 +61,7 @@ a {
     cursor: pointer;
 }
 
-.navbarSearchBar {
+.navbarRight {
     display: flex;
     align-items: center;
     border: 1px #ADADAD;
@@ -209,7 +223,7 @@ strong {
 
 .thumbnail {
     display: flex;
-    padding-top: 25px;
+    /* padding-top: 7.5em; */
 }
 
 .item {
@@ -334,7 +348,7 @@ strong {
 
 .foodImg {
     width: 363.75px;
-    height: 249.75px;
+    height: 247.09px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -352,6 +366,7 @@ strong {
 .foodsInfoRight span {
     color: #000000;
     font-weight: 300;
+    font-size: 13px;
 }
 
 .foodsInfoLeft {
@@ -412,7 +427,7 @@ strong {
     border-radius: 100%;
     width: 42px;
     height: 42px;
-    margin-left: 150px;
+    margin: 0px 135px;
 }
 
 .serviceCombo {
@@ -421,7 +436,7 @@ strong {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     text-align: center;
-    margin: 50px;
+    margin: 90px;
 }
 
 .serviceThumbnail {
@@ -433,7 +448,6 @@ strong {
 }
 
 .serviceThumbnail:hover {
-    cursor: pointer;
     box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out;
 }
@@ -460,6 +474,15 @@ strong {
 .clientInfo {
     text-align: left;
     padding-left: 15px;
+}
+
+.testimonialsMiddle {
+    font-weight: 450;
+}
+
+.clientImg {
+    border-radius: 100%;
+    width: 75px;
 }
 
 .testimonials01 {
@@ -618,6 +641,7 @@ strong {
 .footer01 p {
     color: #B6B6B6;
 }
+
 .footer02 p {
     padding-top: 45px;
     color: #B6B6B6;
